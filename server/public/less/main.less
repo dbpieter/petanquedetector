@@ -1,0 +1,54 @@
+//--- Colors ---
+@orange: #F37C20;
+@blue: #40B1FA;
+
+//--- Bootstrap ---
+@import 'bootstrap/bootstrap.less';
+
+//--- OWL Carousel ---
+@import 'owl-carousel/owl.carousel.less';
+@import 'owl-carousel/owl.theme.less';
+@import 'owl-carousel/owl.transitions.less';
+
+body {
+	font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+}
+
+#logo-wrapper {
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+    #logo {
+
+    }
+}
+
+//--- Carousel ---
+#screenshots {
+    margin-bottom: 50px;
+
+    .item{
+        margin: 3px;
+
+        img {
+        display: block;
+        width: 100%;
+        height: auto;
+        }
+    }
+}
+
+//--- Buttons ---
+#download {
+    font-size: 32px;
+    color: @blue;
+
+    &:hover {
+        color: darken(@blue, 15%);
+    }
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="96px" height="45px" viewBox="0 0 96 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1.1 (8761) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow-down@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="arrow-down" sketch:type="MSLayerGroup" transform="translate(48.000000, 22.500000) scale(1, -1) rotate(-90.000000) translate(-48.000000, -22.500000) translate(26.000000, -25.000000)" fill="#000000">
+            <path d="M44.089,47.335 L1.486,94.671 L-1.22211269e-15,93.333 L41.396,47.335 L-0.001,1.337 L1.485,0 L44.089,47.335 L44.089,47.335 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

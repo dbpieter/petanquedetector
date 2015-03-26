@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		380C12FA1A2D3F8E000188F0 /* ApiWrapperExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380C12F91A2D3F8E000188F0 /* ApiWrapperExamples.swift */; };
+		3815A7C71A5EEF82008AF9AA /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3815A7C61A5EEF82008AF9AA /* UIImageExtensions.swift */; };
+		3815A7C91A5F3A0B008AF9AA /* DetectionResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3815A7C81A5F3A0B008AF9AA /* DetectionResultVC.swift */; };
+		3815A7CB1A5F4DC2008AF9AA /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3815A7CA1A5F4DC2008AF9AA /* Loading.swift */; };
+		3818C6401A2CD6080019843C /* Alamofire.framework in Copy Files (1 item) */ = {isa = PBXBuildFile; fileRef = 3818C6381A2CD5540019843C /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3818C6421A2CE0E80019843C /* ApiWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3818C6411A2CE0E80019843C /* ApiWrapper.swift */; };
+		3818C6451A2CE2060019843C /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3818C6441A2CE2060019843C /* Game.swift */; };
+		3818C6471A2CE2420019843C /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3818C6461A2CE2420019843C /* Team.swift */; };
+		382D62641A27E7D70097FB33 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382D62631A27E7D70097FB33 /* GameViewController.swift */; };
+		382D62671A27E8AB0097FB33 /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382D62661A27E8AB0097FB33 /* TeamViewController.swift */; };
+		382D62691A27EA020097FB33 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382D62681A27EA020097FB33 /* Colors.swift */; };
+		38828C021A275E790090545C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38828C011A275E790090545C /* AppDelegate.swift */; };
+		38828C041A275E790090545C /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38828C031A275E790090545C /* MainController.swift */; };
+		38828C071A275E790090545C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38828C051A275E790090545C /* Main.storyboard */; };
+		38828C091A275E790090545C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38828C081A275E790090545C /* Images.xcassets */; };
+		38828C0C1A275E790090545C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38828C0A1A275E790090545C /* LaunchScreen.xib */; };
+		38828C181A275E790090545C /* petanqueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38828C171A275E790090545C /* petanqueTests.swift */; };
+		38828C261A27845C0090545C /* CameraOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38828C251A27845C0090545C /* CameraOverlayView.swift */; };
+		38D400911A5BE4A100DEA245 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D400901A5BE4A100DEA245 /* Reachability.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3818C6371A2CD5540019843C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3818C6321A2CD5540019843C /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = Alamofire;
+		};
+		3818C6391A2CD5540019843C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3818C6321A2CD5540019843C /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = AlamofireTests;
+		};
+		3818C63B1A2CD5AB0019843C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3818C6321A2CD5540019843C /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = Alamofire;
+		};
+		38828C121A275E790090545C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38828BF41A275E790090545C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38828BFB1A275E790090545C;
+			remoteInfo = petanque;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3818C63E1A2CD5CC0019843C /* Copy Files (1 item) */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3818C6401A2CD6080019843C /* Alamofire.framework in Copy Files (1 item) */,
+			);
+			name = "Copy Files (1 item)";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		380C12F91A2D3F8E000188F0 /* ApiWrapperExamples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiWrapperExamples.swift; sourceTree = "<group>"; };
+		3815A7C61A5EEF82008AF9AA /* UIImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
+		3815A7C81A5F3A0B008AF9AA /* DetectionResultVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetectionResultVC.swift; sourceTree = "<group>"; };
+		3815A7CA1A5F4DC2008AF9AA /* Loading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
+		3818C6321A2CD5540019843C /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = ../../Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+		3818C6411A2CE0E80019843C /* ApiWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiWrapper.swift; sourceTree = "<group>"; };
+		3818C6441A2CE2060019843C /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		3818C6461A2CE2420019843C /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		382D62631A27E7D70097FB33 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		382D62661A27E8AB0097FB33 /* TeamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
+		382D62681A27EA020097FB33 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		38828BFC1A275E790090545C /* Petanque.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Petanque.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38828C001A275E790090545C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38828C011A275E790090545C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38828C031A275E790090545C /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		38828C061A275E790090545C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38828C081A275E790090545C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		38828C0B1A275E790090545C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		38828C111A275E790090545C /* petanqueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = petanqueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38828C161A275E790090545C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38828C171A275E790090545C /* petanqueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = petanqueTests.swift; sourceTree = "<group>"; };
+		38828C251A27845C0090545C /* CameraOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraOverlayView.swift; sourceTree = "<group>"; };
+		38D400901A5BE4A100DEA245 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38828BF91A275E790090545C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38828C0E1A275E790090545C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3818C6331A2CD5540019843C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3818C6381A2CD5540019843C /* Alamofire.framework */,
+				3818C63A1A2CD5540019843C /* AlamofireTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3818C6431A2CE1FC0019843C /* Game Logic */ = {
+			isa = PBXGroup;
+			children = (
+				3818C6441A2CE2060019843C /* Game.swift */,
+				3818C6461A2CE2420019843C /* Team.swift */,
+			);
+			name = "Game Logic";
+			sourceTree = "<group>";
+		};
+		382D62651A27E8850097FB33 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				38828C031A275E790090545C /* MainController.swift */,
+				382D62631A27E7D70097FB33 /* GameViewController.swift */,
+				382D62661A27E8AB0097FB33 /* TeamViewController.swift */,
+				3815A7C81A5F3A0B008AF9AA /* DetectionResultVC.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		38828BF31A275E790090545C = {
+			isa = PBXGroup;
+			children = (
+				38828BFE1A275E790090545C /* petanque */,
+				38828C141A275E790090545C /* petanqueTests */,
+				38828BFD1A275E790090545C /* Products */,
+				3818C6321A2CD5540019843C /* Alamofire.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		38828BFD1A275E790090545C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38828BFC1A275E790090545C /* Petanque.app */,
+				38828C111A275E790090545C /* petanqueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38828BFE1A275E790090545C /* petanque */ = {
+			isa = PBXGroup;
+			children = (
+				3818C6431A2CE1FC0019843C /* Game Logic */,
+				38828C011A275E790090545C /* AppDelegate.swift */,
+				38828C051A275E790090545C /* Main.storyboard */,
+				38828C081A275E790090545C /* Images.xcassets */,
+				38828C0A1A275E790090545C /* LaunchScreen.xib */,
+				38828C251A27845C0090545C /* CameraOverlayView.swift */,
+				382D62651A27E8850097FB33 /* ViewControllers */,
+				382D62681A27EA020097FB33 /* Colors.swift */,
+				3818C6411A2CE0E80019843C /* ApiWrapper.swift */,
+				380C12F91A2D3F8E000188F0 /* ApiWrapperExamples.swift */,
+				38828BFF1A275E790090545C /* Supporting Files */,
+				38D400901A5BE4A100DEA245 /* Reachability.swift */,
+				3815A7C61A5EEF82008AF9AA /* UIImageExtensions.swift */,
+				3815A7CA1A5F4DC2008AF9AA /* Loading.swift */,
+			);
+			path = petanque;
+			sourceTree = "<group>";
+		};
+		38828BFF1A275E790090545C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38828C001A275E790090545C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38828C141A275E790090545C /* petanqueTests */ = {
+			isa = PBXGroup;
+			children = (
+				38828C171A275E790090545C /* petanqueTests.swift */,
+				38828C151A275E790090545C /* Supporting Files */,
+			);
+			path = petanqueTests;
+			sourceTree = "<group>";
+		};
+		38828C151A275E790090545C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38828C161A275E790090545C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38828BFB1A275E790090545C /* petanque */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38828C1B1A275E790090545C /* Build configuration list for PBXNativeTarget "petanque" */;
+			buildPhases = (
+				38828BF81A275E790090545C /* Sources */,
+				38828BF91A275E790090545C /* Frameworks */,
+				38828BFA1A275E790090545C /* Resources */,
+				3818C63E1A2CD5CC0019843C /* Copy Files (1 item) */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3818C63C1A2CD5AB0019843C /* PBXTargetDependency */,
+			);
+			name = petanque;
+			productName = petanque;
+			productReference = 38828BFC1A275E790090545C /* Petanque.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38828C101A275E790090545C /* petanqueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38828C1E1A275E790090545C /* Build configuration list for PBXNativeTarget "petanqueTests" */;
+			buildPhases = (
+				38828C0D1A275E790090545C /* Sources */,
+				38828C0E1A275E790090545C /* Frameworks */,
+				38828C0F1A275E790090545C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38828C131A275E790090545C /* PBXTargetDependency */,
+			);
+			name = petanqueTests;
+			productName = petanqueTests;
+			productReference = 38828C111A275E790090545C /* petanqueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38828BF41A275E790090545C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Hans Ott";
+				TargetAttributes = {
+					38828BFB1A275E790090545C = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					38828C101A275E790090545C = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 38828BFB1A275E790090545C;
+					};
+				};
+			};
+			buildConfigurationList = 38828BF71A275E790090545C /* Build configuration list for PBXProject "petanque" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38828BF31A275E790090545C;
+			productRefGroup = 38828BFD1A275E790090545C /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3818C6331A2CD5540019843C /* Products */;
+					ProjectRef = 3818C6321A2CD5540019843C /* Alamofire.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				38828BFB1A275E790090545C /* petanque */,
+				38828C101A275E790090545C /* petanqueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3818C6381A2CD5540019843C /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 3818C6371A2CD5540019843C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3818C63A1A2CD5540019843C /* AlamofireTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AlamofireTests.xctest;
+			remoteRef = 3818C6391A2CD5540019843C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38828BFA1A275E790090545C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38828C071A275E790090545C /* Main.storyboard in Resources */,
+				38828C0C1A275E790090545C /* LaunchScreen.xib in Resources */,
+				38828C091A275E790090545C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38828C0F1A275E790090545C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38828BF81A275E790090545C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3815A7CB1A5F4DC2008AF9AA /* Loading.swift in Sources */,
+				3818C6471A2CE2420019843C /* Team.swift in Sources */,
+				382D62641A27E7D70097FB33 /* GameViewController.swift in Sources */,
+				3815A7C91A5F3A0B008AF9AA /* DetectionResultVC.swift in Sources */,
+				382D62671A27E8AB0097FB33 /* TeamViewController.swift in Sources */,
+				3815A7C71A5EEF82008AF9AA /* UIImageExtensions.swift in Sources */,
+				3818C6421A2CE0E80019843C /* ApiWrapper.swift in Sources */,
+				382D62691A27EA020097FB33 /* Colors.swift in Sources */,
+				380C12FA1A2D3F8E000188F0 /* ApiWrapperExamples.swift in Sources */,
+				38828C261A27845C0090545C /* CameraOverlayView.swift in Sources */,
+				38D400911A5BE4A100DEA245 /* Reachability.swift in Sources */,
+				38828C041A275E790090545C /* MainController.swift in Sources */,
+				38828C021A275E790090545C /* AppDelegate.swift in Sources */,
+				3818C6451A2CE2060019843C /* Game.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38828C0D1A275E790090545C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38828C181A275E790090545C /* petanqueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3818C63C1A2CD5AB0019843C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			targetProxy = 3818C63B1A2CD5AB0019843C /* PBXContainerItemProxy */;
+		};
+		38828C131A275E790090545C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38828BFB1A275E790090545C /* petanque */;
+			targetProxy = 38828C121A275E790090545C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38828C051A275E790090545C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38828C061A275E790090545C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38828C0A1A275E790090545C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38828C0B1A275E790090545C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38828C191A275E790090545C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38828C1A1A275E790090545C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38828C1C1A275E790090545C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/petanque",
+				);
+				INFOPLIST_FILE = petanque/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Petanque;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Debug;
+		};
+		38828C1D1A275E790090545C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/petanque",
+				);
+				INFOPLIST_FILE = petanque/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Petanque;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Release;
+		};
+		38828C1F1A275E790090545C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = petanqueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/petanque.app/petanque";
+			};
+			name = Debug;
+		};
+		38828C201A275E790090545C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = petanqueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/petanque.app/petanque";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38828BF71A275E790090545C /* Build configuration list for PBXProject "petanque" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38828C191A275E790090545C /* Debug */,
+				38828C1A1A275E790090545C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38828C1B1A275E790090545C /* Build configuration list for PBXNativeTarget "petanque" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38828C1C1A275E790090545C /* Debug */,
+				38828C1D1A275E790090545C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38828C1E1A275E790090545C /* Build configuration list for PBXNativeTarget "petanqueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38828C1F1A275E790090545C /* Debug */,
+				38828C201A275E790090545C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38828BF41A275E790090545C /* Project object */;
+}

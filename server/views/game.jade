@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  div(ng-controller='GameController').container
+    #gameId.hidden #{gameId}
+    #json
+    #created Game created on {{ game.createdAt }}
+    ul
+      li(ng-repeat='team in game.Teams') Name={{ team.name }} Score={{ team.score }}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="petanque">
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="/css/main.css" type="text/css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400" type="text/css">
+  </head>
+  <body>
+    <div ng-controller="GameController" class="container">
+      <div id="gameId" class="hidden"></div>
+      <div id="json"></div>
+      <ul>
+        <li ng-repeat="team in game.Teams">Name={{ team.name }} Score={{ team.score }}</li>
+      </ul>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/min/main-min.js"></script>
+  </body>
+</html>

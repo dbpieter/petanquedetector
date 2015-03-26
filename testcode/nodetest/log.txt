@@ -1,0 +1,212 @@
+
+> opencv@1.0.0 install c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv
+> node-gyp rebuild
+
+
+c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv>node "c:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin\\..\..\node_modules\node-gyp\bin\node-gyp.js" rebuild 
+Building the projects in this solution one at a time. To enable parallel build, please add the "/m" switch.
+  init.cc
+  Matrix.cc
+  OpenCV.cc
+  CascadeClassifierWrap.cc
+  Contours.cc
+  Point.cc
+  VideoCaptureWrap.cc
+  CamShift.cc
+E:\VisualStudio\VC\include\xlocale(337): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (..\src\Contours.cc) [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+E:\VisualStudio\VC\include\xlocale(337): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (..\src\Point.cc) [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+E:\VisualStudio\VC\include\xlocale(337): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (..\src\VideoCaptureWrap.cc) [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+E:\VisualStudio\VC\include\xlocale(337): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (..\src\Matrix.cc) [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+E:\VisualStudio\VC\include\xlocale(337): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (..\src\CascadeClassifierWrap.cc) [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+E:\VisualStudio\VC\include\xlocale(337): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (..\src\CamShift.cc) [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+E:\VisualStudio\VC\include\xlocale(337): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (..\src\init.cc) [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+E:\VisualStudio\VC\include\xlocale(337): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (..\src\OpenCV.cc) [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\VideoCaptureWrap.cc(53): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\VideoCaptureWrap.cc(93): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\VideoCaptureWrap.cc(109): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\VideoCaptureWrap.cc(124): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(114): warning C4244: 'argument' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(116): warning C4244: 'argument' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(119): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(120): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(121): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(122): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\OpenCV.cc(45): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\CamShift.cc(50): warning C4244: 'argument' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(187): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Contours.cc(62): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(188): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Contours.cc(63): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(231): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(232): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(242): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(243): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(248): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(248): warning C4244: '=' : conversion from 'double' to 'uchar', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Contours.cc(78): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(302): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(303): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(304): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(305): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Contours.cc(89): warning C4267: 'argument' : conversion from 'size_t' to 'uint32_t', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Contours.cc(111): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Contours.cc(121): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(347): warning C4244: '=' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(348): warning C4244: '=' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Contours.cc(132): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\CascadeClassifierWrap.cc(132): warning C4244: '=' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\CascadeClassifierWrap.cc(137): warning C4244: '=' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Contours.cc(143): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\CascadeClassifierWrap.cc(138): warning C4244: '=' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Contours.cc(160): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(370): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Contours.cc(175): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(386): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Contours.cc(193): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(405): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(420): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Contours.cc(231): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(481): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Contours.cc(240): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(486): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(498): warning C4267: 'argument' : conversion from 'size_t' to 'uint32_t', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Contours.cc(259): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(531): warning C4267: 'argument' : conversion from 'size_t' to 'uint32_t', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(581): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(586): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(662): warning C4244: '=' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Contours.cc(289): warning C4267: 'argument' : conversion from 'size_t' to 'uint32_t', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Contours.cc(292): warning C4267: 'argument' : conversion from 'size_t' to 'uint32_t', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(686): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(687): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(689): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(690): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(695): warning C4244: '=' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Contours.cc(303): warning C4267: 'argument' : conversion from 'size_t' to 'uint32_t', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(718): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(719): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(721): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(722): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(727): warning C4244: '=' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Contours.cc(333): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Contours.cc(334): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Contours.cc(346): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Contours.cc(347): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Contours.cc(348): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Contours.cc(349): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(814): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(829): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(844): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(908): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(925): warning C4244: '=' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(954): warning C4244: '=' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(958): warning C4244: '=' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(1015): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(1016): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(1017): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(1018): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(1038): warning C4267: 'argument' : conversion from 'size_t' to 'uint32_t', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(1063): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(1064): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(1148): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(1149): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(1161): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(1172): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(1187): warning C4244: '=' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(1191): warning C4244: '=' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(1210): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(1219): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(1240): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(1352): warning C4244: 'argument' : conversion from 'int64_t' to 'double', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(1359): warning C4244: 'argument' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(1373): warning C4244: '=' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(1374): warning C4244: '=' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(1375): warning C4244: '=' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(1376): warning C4244: '=' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(1378): warning C4172: returning address of local variable or temporary [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(1414): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(1443): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(1444): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(1578): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(1621): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(1623): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(1698): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(1872): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(1873): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(1915): warning C4244: 'argument' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(1916): warning C4244: 'argument' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(1932): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(1933): warning C4244: 'initializing' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Matrix.cc(2011): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\node_modules\nan\nan.h(1081): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data (..\src\CascadeClassifierWrap.cc) [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+          ..\src\CascadeClassifierWrap.cc(74) : see reference to function template instantiation 'v8::Local<v8::Array> NanNew<v8::Array,unsigned __int64>(P)' being compiled
+          with
+          [
+              P=unsigned __int64
+          ]
+c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\node_modules\nan\nan.h(1081): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data (..\src\Contours.cc) [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+          ..\src\Contours.cc(82) : see reference to function template instantiation 'v8::Local<v8::Array> NanNew<v8::Array,unsigned __int64>(P)' being compiled
+          with
+          [
+              P=unsigned __int64
+          ]
+c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\node_modules\nan\nan.h(1081): warning C4244: 'argument' : conversion from 'unsigned __int64' to 'double', possible loss of data (..\src\Contours.cc) [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+          ..\src\Contours.cc(103) : see reference to function template instantiation 'v8::Local<v8::Number> NanNew<v8::Number,unsigned __int64>(P)' being compiled
+          with
+          [
+              P=unsigned __int64
+          ]
+c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\node_modules\nan\nan.h(1081): warning C4267: 'argument' : conversion from 'size_t' to 'int32_t', possible loss of data (..\src\Matrix.cc) [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+          ..\src\Matrix.cc(504) : see reference to function template instantiation 'v8::Local<v8::Integer> NanNew<v8::Integer,unsigned __int64>(P)' being compiled
+          with
+          [
+              P=unsigned __int64
+          ]
+c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\node_modules\nan\nan.h(1081): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data (..\src\Matrix.cc) [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+          ..\src\Matrix.cc(1262) : see reference to function template instantiation 'v8::Local<v8::Array> NanNew<v8::Array,unsigned __int64>(P)' being compiled
+          with
+          [
+              P=unsigned __int64
+          ]
+E:\VisualStudio\VC\include\vector(323): warning C4506: no definition for inline function 'v8::Persistent<v8::Object> v8::Persistent<v8::Object>::New(v8::Handle<v8::Object>)' (..\src\Point.cc) [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+E:\VisualStudio\VC\include\vector(323): warning C4506: no definition for inline function 'v8::Persistent<v8::Object> v8::Persistent<v8::Object>::New(v8::Handle<v8::Object>)' (..\src\VideoCaptureWrap.cc) [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+E:\VisualStudio\VC\include\vector(323): warning C4506: no definition for inline function 'v8::Persistent<v8::FunctionTemplate> v8::Persistent<v8::FunctionTemplate>::New(v8::Handle<v8::FunctionTemplate>)' (..\src\Point.cc) [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+E:\VisualStudio\VC\include\vector(323): warning C4506: no definition for inline function 'v8::Persistent<v8::FunctionTemplate> v8::Persistent<v8::FunctionTemplate>::New(v8::Handle<v8::FunctionTemplate>)' (..\src\VideoCaptureWrap.cc) [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+E:\VisualStudio\VC\include\vector(323): warning C4506: no definition for inline function 'v8::Persistent<v8::Object> v8::Persistent<v8::Object>::New(v8::Handle<v8::Object>)' (..\src\OpenCV.cc) [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+E:\VisualStudio\VC\include\vector(323): warning C4506: no definition for inline function 'v8::Persistent<v8::Object> v8::Persistent<v8::Object>::New(v8::Handle<v8::Object>)' (..\src\CamShift.cc) [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+E:\VisualStudio\VC\include\vector(323): warning C4506: no definition for inline function 'v8::Persistent<v8::FunctionTemplate> v8::Persistent<v8::FunctionTemplate>::New(v8::Handle<v8::FunctionTemplate>)' (..\src\CamShift.cc) [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+E:\VisualStudio\VC\include\vector(323): warning C4506: no definition for inline function 'v8::Persistent<v8::Object> v8::Persistent<v8::Object>::New(v8::Handle<v8::Object>)' (..\src\CascadeClassifierWrap.cc) [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+E:\VisualStudio\VC\include\vector(323): warning C4506: no definition for inline function 'v8::Persistent<v8::FunctionTemplate> v8::Persistent<v8::FunctionTemplate>::New(v8::Handle<v8::FunctionTemplate>)' (..\src\CascadeClassifierWrap.cc) [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+E:\VisualStudio\VC\include\vector(837): warning C4506: no definition for inline function 'v8::Persistent<v8::Object> v8::Persistent<v8::Object>::New(v8::Handle<v8::Object>)' (..\src\Contours.cc) [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+E:\VisualStudio\VC\include\vector(837): warning C4506: no definition for inline function 'v8::Persistent<v8::FunctionTemplate> v8::Persistent<v8::FunctionTemplate>::New(v8::Handle<v8::FunctionTemplate>)' (..\src\Contours.cc) [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+E:\VisualStudio\VC\include\vector(323): warning C4506: no definition for inline function 'v8::Persistent<v8::Object> v8::Persistent<v8::Object>::New(v8::Handle<v8::Object>)' (..\src\init.cc) [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+E:\VisualStudio\VC\include\vector(323): warning C4506: no definition for inline function 'v8::Persistent<v8::Object> v8::Persistent<v8::Object>::New(v8::Handle<v8::Object>)' (..\src\Matrix.cc) [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+E:\VisualStudio\VC\include\vector(323): warning C4506: no definition for inline function 'v8::Persistent<v8::FunctionTemplate> v8::Persistent<v8::FunctionTemplate>::New(v8::Handle<v8::FunctionTemplate>)' (..\src\Matrix.cc) [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+  HighGUI.cc
+  FaceRecognizer.cc
+  BackgroundSubtractor.cc
+  Constants.cc
+E:\VisualStudio\VC\include\xlocale(337): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (..\src\HighGUI.cc) [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+E:\VisualStudio\VC\include\xlocale(337): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (..\src\FaceRecognizer.cc) [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+E:\VisualStudio\VC\include\xlocale(337): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (..\src\BackgroundSubtractor.cc) [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+E:\VisualStudio\VC\include\xlocale(337): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (..\src\Constants.cc) [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\HighGUI.cc(36): warning C4244: 'argument' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\HighGUI.cc(74): warning C4244: '=' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\HighGUI.cc(77): warning C4244: '=' : conversion from 'int64_t' to 'int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\BackgroundSubtractor.cc(92): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+..\src\Constants.cc(5): warning C4005: 'CONST' : macro redefinition [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+          C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(153) : see previous definition of 'CONST'
+E:\VisualStudio\VC\include\vector(323): warning C4506: no definition for inline function 'v8::Persistent<v8::Object> v8::Persistent<v8::Object>::New(v8::Handle<v8::Object>)' (..\src\HighGUI.cc) [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+E:\VisualStudio\VC\include\vector(323): warning C4506: no definition for inline function 'v8::Persistent<v8::FunctionTemplate> v8::Persistent<v8::FunctionTemplate>::New(v8::Handle<v8::FunctionTemplate>)' (..\src\HighGUI.cc) [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+E:\VisualStudio\VC\include\vector(323): warning C4506: no definition for inline function 'v8::Persistent<v8::Object> v8::Persistent<v8::Object>::New(v8::Handle<v8::Object>)' (..\src\BackgroundSubtractor.cc) [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+E:\VisualStudio\VC\include\vector(323): warning C4506: no definition for inline function 'v8::Persistent<v8::FunctionTemplate> v8::Persistent<v8::FunctionTemplate>::New(v8::Handle<v8::FunctionTemplate>)' (..\src\BackgroundSubtractor.cc) [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+E:\VisualStudio\VC\include\vector(323): warning C4506: no definition for inline function 'v8::Persistent<v8::Object> v8::Persistent<v8::Object>::New(v8::Handle<v8::Object>)' (..\src\Constants.cc) [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+E:\VisualStudio\VC\include\vector(323): warning C4506: no definition for inline function 'v8::Persistent<v8::Object> v8::Persistent<v8::Object>::New(v8::Handle<v8::Object>)' (..\src\FaceRecognizer.cc) [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+E:\VisualStudio\VC\include\vector(323): warning C4506: no definition for inline function 'v8::Persistent<v8::FunctionTemplate> v8::Persistent<v8::FunctionTemplate>::New(v8::Handle<v8::FunctionTemplate>)' (..\src\FaceRecognizer.cc) [c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\opencv.vcxproj]
+     Creating library c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\Release\opencv.lib and object c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\Release\opencv.exp
+  Generating code
+  Finished generating code
+  opencv.vcxproj -> c:\Users\pieter\Dropbox\ict1415\project\projecten2\testcode\nodetest\node_modules\opencv\build\Release\\opencv.node
+opencv@1.0.0 node_modules\opencv
+├── buffers@0.1.1
+└── nan@1.4.1

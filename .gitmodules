@@ -1,0 +1,6 @@
+[submodule "Alamofire"]
+	path = Alamofire
+	url = https://github.com/Alamofire/Alamofire.git
+[submodule "NYXImagesKit"]
+	path = NYXImagesKit
+	url = https://github.com/Nyx0uf/NYXImagesKit
